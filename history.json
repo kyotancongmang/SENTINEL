@@ -1,0 +1,248 @@
+[
+    {
+        "is_danger": true,
+        "filename": "clamwin-0.103.2.1-setup (1).exe",
+        "details": {
+            "Mode": "OFFLINE",
+            "MIME": "application/x-msdownload",
+            "Entropy": "8.00"
+        },
+        "clean_list": [
+            "YARA: Error/Not Installed",
+            "ClamAV: Not Installed",
+            "VirusTotal: Offline Skipped"
+        ],
+        "malicious_list": [
+            "Heuristic: High Entropy (8.00) - Packed/Encrypted"
+        ],
+        "timestamp": "2026-01-19 10:07:19"
+    },
+    {
+        "is_danger": true,
+        "filename": "clamwin-0.103.2.1-setup (1).exe",
+        "details": {
+            "Mode": "OFFLINE",
+            "MIME": "application/x-msdownload",
+            "Entropy": "8.00"
+        },
+        "clean_list": [
+            "YARA: Error/Not Installed",
+            "ClamAV: Not Installed",
+            "VirusTotal: Offline Skipped"
+        ],
+        "malicious_list": [
+            "Heuristic: High Entropy (8.00) - Packed/Encrypted"
+        ],
+        "timestamp": "2026-01-19 10:06:37"
+    },
+    {
+        "is_danger": true,
+        "filename": "clamwin-0.103.2.1-setup (1).exe",
+        "details": {
+            "Mode": "ONLINE",
+            "MIME": "application/x-msdownload",
+            "Entropy": "8.00"
+        },
+        "clean_list": [
+            "YARA: Error/Not Installed",
+            "ClamAV: Not Installed"
+        ],
+        "malicious_list": [
+            "Heuristic: High Entropy (8.00) - Packed/Encrypted"
+        ],
+        "timestamp": "2026-01-19 10:05:58"
+    },
+    {
+        "is_danger": true,
+        "filename": "df016b640b3b451903c7da444f05c61925a38347284863108d3d600382929c57.exe",
+        "details": {
+            "Mode": "OFFLINE",
+            "MIME": "application/vnd.microsoft.portable-executable",
+            "Entropy": "8.00"
+        },
+        "clean_list": [
+            "YARA: Clean",
+            "ClamAV: Not Installed",
+            "VirusTotal: Offline Skipped"
+        ],
+        "malicious_list": [
+            "Heuristic: High Entropy (8.00) - Packed/Encrypted"
+        ],
+        "timestamp": "2026-01-10 15:50:38"
+    },
+    {
+        "is_danger": true,
+        "filename": "text.txt",
+        "details": {
+            "Mode": "OFFLINE",
+            "MIME": "text/plain",
+            "Entropy": "4.87"
+        },
+        "clean_list": [
+            "ClamAV: Not Installed",
+            "Entropy: Normal (4.87)",
+            "VirusTotal: Offline Skipped"
+        ],
+        "malicious_list": [
+            "YARA Rule: eicar",
+            "YARA Rule: SUSP_Just_EICAR"
+        ],
+        "timestamp": "2026-01-10 15:50:11"
+    },
+    {
+        "is_danger": true,
+        "filename": "df016b640b3b451903c7da444f05c61925a38347284863108d3d600382929c57.exe",
+        "details": {
+            "Mode": "ONLINE",
+            "MIME": "application/vnd.microsoft.portable-executable",
+            "Entropy": "8.00"
+        },
+        "clean_list": [
+            "YARA: Clean",
+            "ClamAV: Not Installed"
+        ],
+        "malicious_list": [
+            "Heuristic: High Entropy (8.00) - Packed/Encrypted",
+            "VT (Lionic): Trojan.Win32.Sok5Syz.h!c",
+            "VT (MicroWorld-eScan): Application.Generic.4666475",
+            "VT (CAT-QuickHeal): Trojan.Sok5Syz",
+            "VT (Skyhigh): BehavesLike.Win32.ObfuscatedPoly.wc",
+            "VT (ALYac): Application.Generic.4666475",
+            "VT (Cylance): Unsafe",
+            "VT (Sangfor): Dropper.Win32.Sok5syz.Vtnp",
+            "VT (K7AntiVirus): Trojan ( 005ce05c1 )",
+            "VT (BitDefender): Application.Generic.4666475",
+            "VT (K7GW): Trojan ( 005ce05c1 )",
+            "VT (CrowdStrike): win/grayware_confidence_60% (D)",
+            "VT (Arcabit): Application.Generic.D47346B",
+            "VT (VirIT): Trojan.Win32.InnoDrp.HNH",
+            "VT (Symantec): Trojan.Gen.MBT",
+            "VT (Elastic): malicious (high confidence)",
+            "VT (ESET-NOD32): a variant of Win32/TrojanDropper.Agent.SLC",
+            "VT (TrendMicro-HouseCall): Trojan.Win32.SOCKSSYSTEMZ.YXFLQZ",
+            "VT (Paloalto): generic.ml",
+            "VT (Cynet): Malicious (score: 99)",
+            "VT (Kaspersky): Trojan-Proxy.Win32.Sok5Syz.aag",
+            "VT (Alibaba): TrojanDropper:Win32/Other.a10147db",
+            "VT (Rising): Dropper.Agent!8.2F (CLOUD)",
+            "VT (Sophos): Mal/Generic-S",
+            "VT (F-Secure): Heuristic.HEUR/AGEN.1381132",
+            "VT (DrWeb): Trojan.MulDrop34.54107",
+            "VT (VIPRE): Application.Generic.4666475",
+            "VT (TrendMicro): Trojan.Win32.SOCKSSYSTEMZ.YXFLQZ",
+            "VT (McAfeeD): ti!DF016B640B3B",
+            "VT (Trapmine): malicious.high.ml.score",
+            "VT (CTX): exe.trojan.sok5syz",
+            "VT (Emsisoft): Application.Generic.4666475 (B)",
+            "VT (Ikarus): Trojan.Win32.Crypt",
+            "VT (Webroot): Win.Trojan.Gen",
+            "VT (Google): Detected",
+            "VT (Avira): HEUR/AGEN.1381132",
+            "VT (Kingsoft): Win32.Trojan-Proxy.Sok5Syz.aag",
+            "VT (Gridinsoft): Malware.Win32.Gen.tr",
+            "VT (Microsoft): Trojan:Win32/Egairtigado!rfn",
+            "VT (GData): Application.Generic.4666475",
+            "VT (Varist): W32/ABTrojan.FSWX-2134",
+            "VT (AhnLab-V3): Trojan/Win.Malware-gen.C5829124",
+            "VT (VBA32): Trojan.ICLoader",
+            "VT (DeepInstinct): MALICIOUS",
+            "VT (Malwarebytes): Malware.AI.2784183005",
+            "VT (Panda): Trj/PhxBzA.A",
+            "VT (Tencent): Win32.Trojan-Proxy.Sok5syz.Kmnw",
+            "VT (TrellixENS): Artemis!0DC1894FB7E3",
+            "VT (huorong): HEUR:TrojanDropper/Agent.t",
+            "VT (MaxSecure): Trojan.Malware.533750860.susgen",
+            "VT (AVG): Other:Malware-gen [Trj]",
+            "VT (Avast): Other:Malware-gen [Trj]",
+            "VT (alibabacloud): Trojan[dropper]:Win/Agent.SEI"
+        ],
+        "timestamp": "2026-01-10 15:40:23"
+    },
+    {
+        "is_danger": true,
+        "filename": "df016b640b3b451903c7da444f05c61925a38347284863108d3d600382929c57.exe",
+        "details": {
+            "Mode": "OFFLINE",
+            "MIME": "application/vnd.microsoft.portable-executable",
+            "Entropy": "8.00"
+        },
+        "clean_list": [
+            "YARA: Clean",
+            "ClamAV: Not Installed",
+            "VirusTotal: Offline Skipped"
+        ],
+        "malicious_list": [
+            "Heuristic: High Entropy (8.00) - Packed/Encrypted"
+        ],
+        "timestamp": "2026-01-10 15:40:11"
+    },
+    {
+        "is_danger": true,
+        "filename": "df016b640b3b451903c7da444f05c61925a38347284863108d3d600382929c57.exe",
+        "details": {
+            "Mode": "ONLINE",
+            "MIME": "application/vnd.microsoft.portable-executable",
+            "Entropy": "8.00"
+        },
+        "clean_list": [
+            "YARA: Clean",
+            "ClamAV: Not Installed"
+        ],
+        "malicious_list": [
+            "Heuristic: High Entropy (8.00) - Packed/Encrypted",
+            "VT (Lionic): Trojan.Win32.Sok5Syz.h!c",
+            "VT (MicroWorld-eScan): Application.Generic.4666475",
+            "VT (CAT-QuickHeal): Trojan.Sok5Syz",
+            "VT (Skyhigh): BehavesLike.Win32.ObfuscatedPoly.wc",
+            "VT (ALYac): Application.Generic.4666475",
+            "VT (Cylance): Unsafe",
+            "VT (Sangfor): Dropper.Win32.Sok5syz.Vtnp",
+            "VT (K7AntiVirus): Trojan ( 005ce05c1 )",
+            "VT (BitDefender): Application.Generic.4666475",
+            "VT (K7GW): Trojan ( 005ce05c1 )",
+            "VT (CrowdStrike): win/grayware_confidence_60% (D)",
+            "VT (Arcabit): Application.Generic.D47346B",
+            "VT (VirIT): Trojan.Win32.InnoDrp.HNH",
+            "VT (Symantec): Trojan.Gen.MBT",
+            "VT (Elastic): malicious (high confidence)",
+            "VT (ESET-NOD32): a variant of Win32/TrojanDropper.Agent.SLC",
+            "VT (TrendMicro-HouseCall): Trojan.Win32.SOCKSSYSTEMZ.YXFLQZ",
+            "VT (Paloalto): generic.ml",
+            "VT (Cynet): Malicious (score: 99)",
+            "VT (Kaspersky): Trojan-Proxy.Win32.Sok5Syz.aag",
+            "VT (Alibaba): TrojanDropper:Win32/Other.a10147db",
+            "VT (Rising): Dropper.Agent!8.2F (CLOUD)",
+            "VT (Sophos): Mal/Generic-S",
+            "VT (F-Secure): Heuristic.HEUR/AGEN.1381132",
+            "VT (DrWeb): Trojan.MulDrop34.54107",
+            "VT (VIPRE): Application.Generic.4666475",
+            "VT (TrendMicro): Trojan.Win32.SOCKSSYSTEMZ.YXFLQZ",
+            "VT (McAfeeD): ti!DF016B640B3B",
+            "VT (Trapmine): malicious.high.ml.score",
+            "VT (CTX): exe.trojan.sok5syz",
+            "VT (Emsisoft): Application.Generic.4666475 (B)",
+            "VT (Ikarus): Trojan.Win32.Crypt",
+            "VT (Webroot): Win.Trojan.Gen",
+            "VT (Google): Detected",
+            "VT (Avira): HEUR/AGEN.1381132",
+            "VT (Kingsoft): Win32.Trojan-Proxy.Sok5Syz.aag",
+            "VT (Gridinsoft): Malware.Win32.Gen.tr",
+            "VT (Microsoft): Trojan:Win32/Egairtigado!rfn",
+            "VT (GData): Application.Generic.4666475",
+            "VT (Varist): W32/ABTrojan.FSWX-2134",
+            "VT (AhnLab-V3): Trojan/Win.Malware-gen.C5829124",
+            "VT (VBA32): Trojan.ICLoader",
+            "VT (DeepInstinct): MALICIOUS",
+            "VT (Malwarebytes): Malware.AI.2784183005",
+            "VT (Panda): Trj/PhxBzA.A",
+            "VT (Tencent): Win32.Trojan-Proxy.Sok5syz.Kmnw",
+            "VT (TrellixENS): Artemis!0DC1894FB7E3",
+            "VT (huorong): HEUR:TrojanDropper/Agent.t",
+            "VT (MaxSecure): Trojan.Malware.533750860.susgen",
+            "VT (AVG): Other:Malware-gen [Trj]",
+            "VT (Avast): Other:Malware-gen [Trj]",
+            "VT (alibabacloud): Trojan[dropper]:Win/Agent.SEI"
+        ],
+        "timestamp": "2026-01-09 15:01:51"
+    }
+]

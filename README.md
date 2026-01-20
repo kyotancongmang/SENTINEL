@@ -1,2 +1,1 @@
-# SENTINEL
-quét offline virus
+test

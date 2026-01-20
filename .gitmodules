@@ -1,0 +1,8 @@
+[submodule "yara_rules/source_neo23x0"]
+	path = yara_rules/source_neo23x0
+	url = https://github.com/Neo23x0/signature-base.git
+	branch = master
+[submodule "yara_rules/source_reversing"]
+	path = yara_rules/source_reversing
+	url = https://github.com/Yara-Rules/rules.git
+	branch = master
