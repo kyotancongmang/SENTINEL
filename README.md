@@ -1,0 +1,2 @@
+# SENTINEL
+quét offline virus
