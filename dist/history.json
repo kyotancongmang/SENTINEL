@@ -1,0 +1,38 @@
+[
+    {
+        "is_danger": true,
+        "filename": "hinhdong.zip",
+        "details": {
+            "Mode": "OFFLINE",
+            "MIME": "application/zip",
+            "Entropy": "8.00"
+        },
+        "clean_list": [
+            "YARA: Error/Not Installed",
+            "ClamAV: Not Installed",
+            "VirusTotal: Offline Skipped"
+        ],
+        "malicious_list": [
+            "Heuristic: High Entropy (8.00) - Packed/Encrypted"
+        ],
+        "timestamp": "2026-01-23 10:18:12"
+    },
+    {
+        "is_danger": true,
+        "filename": "clamwin-0.103.2.1-setup (1).exe",
+        "details": {
+            "Mode": "OFFLINE",
+            "MIME": "application/x-msdownload",
+            "Entropy": "8.00"
+        },
+        "clean_list": [
+            "YARA: Error/Not Installed",
+            "ClamAV: Not Installed",
+            "VirusTotal: Offline Skipped"
+        ],
+        "malicious_list": [
+            "Heuristic: High Entropy (8.00) - Packed/Encrypted"
+        ],
+        "timestamp": "2026-01-23 10:17:33"
+    }
+]
